@@ -1,0 +1,144 @@
+/* :root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+  } */
+
+    /* background-color: var(--pale-blue); */
+
+.container{
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    padding: 6.2rem;
+    margin: auto;
+} 
+body{
+    margin:0;
+    max-width: 1440px;
+}
+
+img{
+    border-radius: 1rem 1rem 0 0;
+} 
+
+.top-img{
+    width: 24.5rem;
+}
+
+h2{
+    margin-top: 1.9rem;
+}
+
+.order-card-new{
+    box-shadow:0 1.25rem 1.25rem -0.25rem  hsl(225, 100%, 94%);
+    border-radius: 1rem;
+    font-weight: 500;
+    background-color:white ;
+    width:31.5%;
+}
+
+.order-card-new p{
+    width: 20rem;
+    margin: auto;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+.order-card-new h2{
+    color:  hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.plans{
+    height: 3.125rem;
+    margin:30px 0 30px 40px;
+    background-color: hsl(225, 100%, 98%);
+    padding:20px 15px 20px 15px ;
+    border-radius: 1rem;
+}
+
+.plans td .plan-title{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    width:6.2rem ;
+
+}
+
+.plans td .plan-cost{
+    width: 6.2rem;
+}
+
+.plans td img{
+    height: 2.5rem;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+}
+
+.plans td p{
+    font-size: 0.9rem;
+    
+}
+.plans td a{
+    padding-left: 6rem;
+    color:hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size:0.85rem;
+}
+
+.plans td a:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn{
+    width: 21rem;
+    border-radius: 0.5rem;
+    padding:0.6rem 1.8rem;
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    box-shadow:0 1.25rem 1.25rem -0.25rem  hsl(225, 100%, 94%);
+    font-weight: 700;
+    font-size: 0.75rem;
+    margin-bottom: 1.2rem;
+}
+
+.btn:hover{
+    width: 21rem;
+    border-radius: 0.5rem;
+    padding:0.6rem 1.8rem;
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(224, 23%, 55%);
+    border: none;
+    box-shadow:0 1.25rem 1.25rem -0.25rem  hsl(225, 100%, 94%);
+    font-weight: 700;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.cancel-order{
+    color:hsl(224, 23%, 55%);
+    font-size: small;
+    font-weight: 900;
+    text-decoration: none;
+   
+}
+
+.cancel-order:hover{
+    color:hsl(223, 47%, 23%);
+    font-size: small;
+    font-weight: 900;
+    text-decoration: none;
+    
+}
+
+.bottom-container{
+    padding-bottom: 40px;
+}
